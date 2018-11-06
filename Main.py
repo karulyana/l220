@@ -1,1 +1,0 @@
-import sysfrom PyQt5.QtWidgets import QApplicationfrom Windows.window import Windowfrom Windows.Диалоги import Диалог_траукторияДиалог_траектория = Диалог_трауктория.Dialog_traj()if __name__ == '__main__':    app = QApplication(sys.argv)    Диалог_траектория.show()    #window = Window()    sys.exit(app.exec_())
